@@ -1,0 +1,40 @@
+/* IMPORT SECTION */
+
+@import '../vendor/bootstrap/bootstrap-reboot.min.css';
+@import '../vendor/bootstrap/bootstrap-grid.min.css';
+
+/* USER VARIABLES SECTION */
+
+:root {
+	--accent: orange;
+	--fontsize: 16px;
+	--textcolor: #333;
+	--lineheight: 1.65;
+	--userfont: Roboto, sans-serif;
+	--systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+}
+
+/* FONTS LOAD SECTION */
+
+@font-face { src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"); font-family: "Roboto"; font-weight: 400; font-style: normal; }
+@font-face { src: url("../fonts/roboto-italic-webfont.woff2") format("woff2"); font-family: "Roboto"; font-weight: 400; font-style: italic; }
+@font-face { src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"); font-family: "Roboto"; font-weight: 700; font-style: normal; }
+@font-face { src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2"); font-family: "Roboto"; font-weight: 700; font-style: italic; }
+
+/* GENERAL DOCUMENT STYLES */
+
+::placeholder {	color: #666; }
+::selection { background-color: var(--accent); color: #fff; }
+input, textarea { outline: none; }
+input:focus:required:invalid, textarea:focus:required:invalid { border-color: red; }
+input:required:valid, textarea:required:valid { border-color: green; }
+
+body {
+	font-family: var(--userfont);
+	font-size: var(--fontsize);
+	line-height: var(--lineheight);
+	color: var(--textcolor);
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+}
