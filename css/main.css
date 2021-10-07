@@ -48,4 +48,5 @@ body {
 
 .accent {
 	color: var(--accent);
+	font-weight: bold;
 }
