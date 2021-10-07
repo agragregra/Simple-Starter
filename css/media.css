@@ -28,23 +28,8 @@
 
 /* === MOBILE FIRST === */
 
-/* Extra extra large (xxl) */
-@media (min-width : 1400px) {
-
-}
-
-/* Extra large (xl) */
-@media (min-width : 1200px) {
-
-}
-
-/* Large (lg) */
-@media (min-width : 992px) {
-
-}
-
-/* Medium (md) */
-@media (min-width : 768px) {
+/* Custom (xs) */
+@media (min-width : 0) {
 
 }
 
@@ -53,7 +38,26 @@
 
 }
 
-/* Custom (xs) */
-@media (min-width : 0) {
+/* Medium (md) */
+@media (min-width : 768px) {
 
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+	.text {
+		font-size: 18px;
+	}
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+	.text {
+		font-size: 22px;
+	}
 }
