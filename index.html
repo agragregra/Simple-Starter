@@ -4,11 +4,21 @@
 <head>
 
 	<meta charset="utf-8">
-	<title>VSC HTML/SASS/JS Starter</title>
-	<meta name="description" content="Startup template based on VSC">
-	<meta name="viewport" content="width=device-width">
+	<!-- <base href="/"> -->
+
+	<title>Simple Starter</title>
+	<meta name="description" content="Simple Starter Description">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
 	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/image.jpg">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 
 </head>
 
@@ -16,8 +26,14 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-4">
-				<a class="image-block" href="images/image.jpg"><img class="image" src="images/image.jpg" alt="Image Example"></a>
+			<div class="col-md-4">
+
+				<div id="gallery">
+					<a class="image-block" href="images/image.jpg" data-lg-size="1200-480">
+						<img class="image" src="images/image.jpg" alt="Image Example">
+					</a>
+				</div>
+
 			</div>
 			<div class="col">
 				<span class="accent">Далеко-далеко</span> за словесными горами в стране гласных и согласных живут, рыбные тексты. Сбить знаках рукопись жизни
@@ -27,7 +43,9 @@
 		</div>
 	</div>
 
-	<script src="js/common.js" type="module"></script>
+	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+
+	<script src="js/common.js"></script>
 
 </body>
 </html>
