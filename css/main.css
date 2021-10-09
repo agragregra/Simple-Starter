@@ -45,6 +45,7 @@ body {
 .image {
 	max-width: 100%;
 	margin-bottom: var(--bs-gutter-x);
+	border-radius: 4px;
 }
 
 .accent {
