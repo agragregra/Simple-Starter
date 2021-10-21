@@ -3,7 +3,7 @@
 :root {
 	--accent: orange;
 	--text: #333;
-	--fontsize: 16px;
+	--regular-text: 16px;
 	--lineheight: 1.65;
 	--userfont: roboto-st, sans-serif;
 	--systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
@@ -32,7 +32,7 @@ input:required:valid, textarea:required:valid { border-color: green; }
 
 body {
 	font-family: var(--userfont);
-	font-size: var(--fontsize);
+	font-size: var(--regular-text);
 	line-height: var(--lineheight);
 	color: var(--text);
 	min-width: 320px;
