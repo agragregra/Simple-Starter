@@ -2,7 +2,7 @@
 
 :root {
 	--accent: orange;
-	--textcolor: #333;
+	--text: #333;
 	--fontsize: 16px;
 	--lineheight: 1.65;
 	--userfont: roboto-st, sans-serif;
@@ -34,7 +34,7 @@ body {
 	font-family: var(--userfont);
 	font-size: var(--fontsize);
 	line-height: var(--lineheight);
-	color: var(--textcolor);
+	color: var(--text);
 	min-width: 320px;
 	position: relative;
 	overflow-x: hidden;
