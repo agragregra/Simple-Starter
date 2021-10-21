@@ -2,8 +2,8 @@
 
 :root {
 	--accent: orange;
-	--fontsize: 16px;
 	--textcolor: #333;
+	--fontsize: 16px;
 	--lineheight: 1.65;
 	--userfont: roboto-st, sans-serif;
 	--systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
