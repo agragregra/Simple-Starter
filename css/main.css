@@ -58,10 +58,10 @@ body {
 	display: none;
 }
 
-.theme-light .image-light {
+[data-bs-theme=light] .image-light {
 	display: block;
 }
-.theme-dark .image-dark {
+[data-bs-theme=dark] .image-dark {
 	display: block;
 }
 

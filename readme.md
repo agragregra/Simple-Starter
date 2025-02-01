@@ -40,6 +40,16 @@ xxl - 1400px
 <span data-mode="auto">Auto</span>
 ```
 
+### light-dark selectors:
+```
+[data-bs-theme=light] {
+
+}
+[data-bs-theme=dark] {
+
+}
+```
+
 ### desktop-first:
 ```
 /* md <= Large (lg) */
@@ -96,4 +106,9 @@ xxl - 1400px
 --bs-danger:    #dc3545;
 --bs-light:     #f8f9fa;
 --bs-dark:      #212529;
+```
+
+### plug all bootstrap styles:
+```
+<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 ```
