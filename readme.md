@@ -66,11 +66,11 @@ xxl - 1400px
 
 ### bootstrap-colors:
 
-> --bs-blue:   ![--bs-blue](https://github.com/user-attachments/assets/a024bcce-d157-4845-bd9b-8294e6edf507) #0d6efd;\
---bs-indigo:   ![--bs-indigo](https://github.com/user-attachments/assets/4f818c1e-f561-447d-b346-4f5973c681f8) #6610f2;\
---bs-purple:    #6f42c1;
---bs-pink:      #d63384;
---bs-red:       #dc3545;
+> --bs-blue:&nbsp;&nbsp;&nbsp;![--bs-blue](https://github.com/user-attachments/assets/a024bcce-d157-4845-bd9b-8294e6edf507) #0d6efd;\
+--bs-indigo:&nbsp;&nbsp;&nbsp;![--bs-indigo](https://github.com/user-attachments/assets/4f818c1e-f561-447d-b346-4f5973c681f8) #6610f2;\
+--bs-purple:&nbsp;&nbsp;&nbsp;&nbsp;#6f42c1;
+--bs-pink:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#d63384;
+--bs-red:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#dc3545;
 --bs-orange:    #fd7e14;
 --bs-yellow:    #ffc107;
 --bs-green:     #198754;
