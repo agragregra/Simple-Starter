@@ -57,10 +57,10 @@ body {
 	display: none;
 }
 
-[data-bs-theme=light] .image-light {
+.theme-light .image-light {
 	display: block;
 }
-[data-bs-theme=dark] .image-dark {
+.theme-dark .image-dark {
 	display: block;
 }
 

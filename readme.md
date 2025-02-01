@@ -33,19 +33,19 @@ xl  - 1200px
 xxl - 1400px
 ```
 
-### light-dark:
+### light-dark switch:
 ```
 <span data-mode="light">Light</span>
 <span data-mode="dark">Dark</span>
 <span data-mode="auto">Auto</span>
 ```
 
-### light-dark selectors:
+### root selectors:
 ```
-[data-bs-theme=light] {
+.theme-light {
 
 }
-[data-bs-theme=dark] {
+.theme-dark {
 
 }
 ```
