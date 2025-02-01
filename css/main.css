@@ -81,7 +81,6 @@ body {
 	padding: .4rem .9rem;
 }
 .modes .active {
-	color: var(--color-accent);
 	background-color: var(--color-accent);
 	color: #fff;
 }
