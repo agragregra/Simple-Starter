@@ -21,8 +21,7 @@
 }
 
 /* Bootstrap Grid Gutter 20px instead of default 24px */
-.container, [class^='container-'] { --bs-gutter-x: .625rem; }
-.row, .row > * { --bs-gutter-x: 1.25rem; }
+.container, [class^='container-'], .row, .row > * { --bs-gutter-x: 1.25rem; }
 
 /* FONTS LOAD */
 
@@ -71,7 +70,7 @@ body {
 }
 
 .modes {
-	margin: calc(var(--bs-gutter-x) * 2) 0;
+	margin: var(--bs-gutter-x) 0;
 	font-size: .875rem;
 }
 

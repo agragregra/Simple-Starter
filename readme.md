@@ -108,7 +108,7 @@ xxl - 1400px
 --bs-dark:      #212529;
 ```
 
-### plug all bootstrap styles:
+### bootstrap-styles:
 ```
 <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 ```
