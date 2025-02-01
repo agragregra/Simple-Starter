@@ -1,1 +1,1 @@
-// $('body').hide()
+// document.body.hidden = true

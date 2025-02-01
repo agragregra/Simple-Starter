@@ -59,16 +59,19 @@ body {
 	border-radius: 4px;
 }
 
-.accent {
-	color: var(--color-accent);
-	font-weight: bold;
-}
-
 .text {
+
+	.accent {
+		color: var(--color-accent);
+		font-weight: bold;
+	}
+
 	@media (min-width: 1200px) {
 		font-size: 1.125rem;
 	}
+
 	@media (min-width: 1400px) {
 		font-size: 1.375rem;
 	}
+
 }
