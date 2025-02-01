@@ -55,6 +55,14 @@ xxl - 1400px
 
 }
 ```
+### bootstrap-variables:
+```
+--bs-font-sans-serif: system font
+--bs-body-bg: body background
+--bs-body-color: body color
+--bs-body-line-height: body line-height
+```
+```
 ### bootstrap-colors:
 ```
 --bs-blue: #0d6efd;
@@ -88,4 +96,3 @@ xxl - 1400px
 --bs-light: #f8f9fa;
 --bs-dark: #212529;
 ```
-
