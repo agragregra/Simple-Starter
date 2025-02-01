@@ -65,7 +65,6 @@ xxl - 1400px
 ```
 
 ### bootstrap-colors:
-```
 --bs-blue: ![--bs-blue](https://github.com/user-attachments/assets/5da15845-cc0a-4c02-9b17-f8ce3c1c9598) #0d6efd;
 --bs-indigo: #6610f2;
 --bs-purple: #6f42c1;
@@ -96,4 +95,3 @@ xxl - 1400px
 --bs-danger: #dc3545;
 --bs-light: #f8f9fa;
 --bs-dark: #212529;
-```
