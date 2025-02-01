@@ -14,8 +14,21 @@ lg  - 992px
 xl  - 1200px
 xxl - 1400px
 ```
-### font-weight:
+### desktop-first:
+```
+/* md <= Large (lg) */
+@media (max-width : 992px) {
 
+}
+```
+### mobile-first:
+```
+/* Large (lg) */
+@media (min-width : 992px) {
+
+}
+```
+### font-weight:
 * 100 - Thin (Hairline)
 * 200 - Extra Light (Ultra Light)
 * 300 - Light
