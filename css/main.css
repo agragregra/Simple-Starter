@@ -20,7 +20,7 @@
 
 }
 
-/* Bootstrap Grid Gutter */
+/* Bootstrap Grid Gutter 20px instead of default 24px */
 .container, [class^='container-'] { --bs-gutter-x: .625rem; }
 .row, .row > * { --bs-gutter-x: 1.25rem; }
 
@@ -53,7 +53,7 @@ body {
 
 .image {
 	max-width: 100%;
-	margin-bottom: var(--bs-gutter-x);
+	margin-bottom: calc(var(--bs-gutter-x) / 2);
 	border-radius: calc(var(--radius) / 2);
 	display: none;
 }
@@ -71,11 +71,12 @@ body {
 }
 
 .modes {
-	margin: calc(var(--bs-gutter-x) * 2.5) 0;
+	margin: calc(var(--bs-gutter-x) * 2) 0;
 	font-size: .875rem;
 }
 
 .modes span {
+	display: inline-block;
 	cursor: pointer;
 	border-radius: calc(var(--radius) / 2);
 	padding: .4rem .9rem;
