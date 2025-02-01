@@ -63,3 +63,12 @@ body {
 	color: var(--color-accent);
 	font-weight: bold;
 }
+
+.text {
+	@media (min-width: 1200px) {
+		font-size: 1.125rem;
+	}
+	@media (min-width: 1400px) {
+		font-size: 1.375rem;
+	}
+}

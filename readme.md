@@ -31,7 +31,7 @@ xxl - 1400px
 ### desktop-first:
 ```
 /* md <= Large (lg) */
-@media (max-width : 992px) {
+@media (max-width: 992px) {
 
 }
 ```
@@ -39,7 +39,7 @@ xxl - 1400px
 ### mobile-first:
 ```
 /* Large (lg) */
-@media (min-width : 992px) {
+@media (min-width: 992px) {
 
 }
 ```
