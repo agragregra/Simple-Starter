@@ -1,10 +1,5 @@
-![Start HTML Template](https://raw.githubusercontent.com/agragregra/Simple-Starter/main/images/preview.png)
-
-Clone:
-
-```
-git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignore .git
-```
+![Simple-Starter](https://raw.githubusercontent.com/agragregra/Simple-Starter/main/images/preview.png)
+```git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignore .git```
 
 ## Helpers
 
