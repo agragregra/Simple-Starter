@@ -6,7 +6,7 @@ A simple starter for web development using native technologies.
 git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignore .git
 ```
 
-run with **VSCode Browser Sync** or **Live Server**
+> run with **VSCode Browser Sync** or **Live Server**
 
 ## Helpers
 
