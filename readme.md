@@ -16,7 +16,7 @@ xxl - 1400px
 ```
 ### desktop-first:
 ```
-/* md <= Large (lg) */
+! md <= Large (lg)
 @media (max-width : 992px) {
 
 }
