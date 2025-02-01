@@ -1,19 +1,29 @@
 /* USER VARIABLES SECTION */
 
 :root {
-	--accent: orange;
-	--text: #333;
-	--regular-text: 16px;
-	--lineheight: 1.65;
-	--userfont: roboto-st, sans-serif;
-	--systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+
+	color-scheme: light dark;
+
+	--color-accent: orange;
+	--color-light: #f5f5f5;
+	--color-dark: #151515;
+
+	--font-default: roboto-st, sans-serif;
+
+	/* Bootstrap Variables */
+	--bs-body-bg: light-dark(var(--color-light), var(--color-dark));
+	--bs-body-color: light-dark(var(--color-dark), var(--color-light));
+	--bs-body-line-height: 1.65;
+
+	/* Bootstrap Grid Gutter */
+	.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { --bs-gutter-x: .625rem; }
+	.row, .row > * { --bs-gutter-x: 1.25rem; }
+
+	/* System Settings */
+	--font-base: 16px;
+	--font-system: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+
 }
-
-/* BOOTSTRAP SETTINGS SECTION */
-
-/* gutter 20px (10px + 10px). Comment this code for default gutter start at 1.5rem (24px) wide. */
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { --bs-gutter-x: .625rem; }
-.row, .row > * { --bs-gutter-x: 1.25rem; }
 
 /* FONTS LOAD SECTION */
 
@@ -25,16 +35,17 @@
 /* GENERAL CSS SETTINGS */
 
 ::placeholder { color: #666; }
-::selection { background-color: var(--accent); color: #fff; }
+::selection { background-color: var(--color-accent); color: #fff; }
 input, textarea { outline: none; }
 input:focus:required:invalid, textarea:focus:required:invalid { border-color: red; }
 input:required:valid, textarea:required:valid { border-color: green; }
 
+html, body {
+	font-size: var(--font-base);
+}
+
 body {
-	font-family: var(--userfont);
-	font-size: var(--regular-text);
-	line-height: var(--lineheight);
-	color: var(--text);
+	font-family: var(--font-default);
 	min-width: 320px;
 	position: relative;
 	overflow-x: hidden;
@@ -49,6 +60,6 @@ body {
 }
 
 .accent {
-	color: var(--accent);
+	color: var(--color-accent);
 	font-weight: bold;
 }
