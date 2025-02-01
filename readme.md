@@ -1,5 +1,5 @@
 # Simple Starter
-A simple starter for web development using native technologies, bootstrap-grid css and light-dark mode system.
+A simple starter for web development using native technologies, bootstrap-grid and light-dark mode system.
 
 ![Simple-Starter](https://raw.githubusercontent.com/agragregra/Simple-Starter/main/img/preview.png)
 ```
