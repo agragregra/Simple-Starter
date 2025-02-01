@@ -28,7 +28,7 @@ xl  - 1200px
 xxl - 1400px
 ```
 
-### light-dark modes:
+### light-dark:
 ```
 <span data-mode="light">Light</span>
 <span data-mode="dark">Dark</span>
