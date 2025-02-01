@@ -65,7 +65,6 @@ xxl - 1400px
 ```
 
 ### bootstrap-colors:
-```
 --bs-blue: `#0d6efd`;
 --bs-indigo: #6610f2;
 --bs-purple: #6f42c1;
@@ -96,4 +95,3 @@ xxl - 1400px
 --bs-danger: #dc3545;
 --bs-light: #f8f9fa;
 --bs-dark: #212529;
-```
