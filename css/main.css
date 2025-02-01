@@ -20,7 +20,7 @@
 	.container, [class^='container-'] { --bs-gutter-x: .625rem; }
 	.row, .row > * { --bs-gutter-x: 1.25rem; }
 
-	/* System Fonts, opt. */
+	/* System Font, opt. */
 	--font-system: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
 
 }
