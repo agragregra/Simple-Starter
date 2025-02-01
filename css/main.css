@@ -57,23 +57,29 @@ body {
 	max-width: 100%;
 	margin-bottom: var(--bs-gutter-x);
 	border-radius: 4px;
+	&.image-dark {
+		.light-theme & {
+			display: none;
+		}
+	}
+	&.image-light {
+		.dark-theme & {
+			display: none;
+		}
+	}
 }
 
 .text {
-
 	.accent {
 		color: var(--color-accent);
 		font-weight: bold;
 	}
-
 	@media (min-width: 1200px) {
 		font-size: 1.125rem;
 	}
-
 	@media (min-width: 1400px) {
 		font-size: 1.375rem;
 	}
-
 }
 
 .modes {
