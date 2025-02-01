@@ -5,7 +5,7 @@
 	color-scheme: light dark;
 
 	--font-base: 16px;
-	--font-default: roboto-st, sans-serif;
+	--bs-body-font-family: roboto-st, sans-serif;
 
 	--radius: 8px;
 
@@ -17,9 +17,6 @@
 	--bs-body-bg: light-dark(var(--color-light), var(--color-dark));
 	--bs-body-color: light-dark(var(--color-dark), var(--color-light));
 	--bs-body-line-height: 1.65;
-
-	/* System Font, opt. */
-	--font-system: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
 
 }
 
@@ -47,7 +44,6 @@ html, body {
 }
 
 body {
-	font-family: var(--font-default);
 	min-width: 320px;
 	position: relative;
 	overflow-x: hidden;
@@ -58,7 +54,7 @@ body {
 .image {
 	max-width: 100%;
 	margin-bottom: var(--bs-gutter-x);
-	border-radius: 4px;
+	border-radius: calc(var(--radius) / 2);
 	display: none;
 }
 
@@ -81,7 +77,7 @@ body {
 
 .modes span {
 	cursor: pointer;
-	border-radius: var(--radius);
+	border-radius: calc(var(--radius) / 2);
 	padding: .4rem .9rem;
 }
 .modes .active {
