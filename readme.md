@@ -1,10 +1,14 @@
 ![Start HTML Template](https://raw.githubusercontent.com/agragregra/Simple-Starter/main/images/preview.png)
+
 Clone:
+
 ```
 git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignore .git
 ```
 
-## grid-breakpoints:
+## Helpers
+
+### grid-breakpoints:
 
 * xs: 0
 * sm: 576px
@@ -13,7 +17,7 @@ git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignor
 * xl: 1200px
 * xxl: 1400px
 
-## font-weight:
+### font-weight:
 
 * 100 - Thin (Hairline)
 * 200 - Extra Light (Ultra Light)
