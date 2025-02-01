@@ -1,4 +1,4 @@
-# Simple-Starter
+# Simple Starter
 A simple starter for web development using native technologies.
 
 ![Simple-Starter](https://raw.githubusercontent.com/agragregra/Simple-Starter/main/img/preview.png)
