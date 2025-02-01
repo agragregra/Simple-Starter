@@ -5,29 +5,6 @@ git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignor
 
 ## Helpers
 
-### grid-breakpoints:
-```
-xs  - 0
-sm  - 576px
-md  - 768px
-lg  - 992px
-xl  - 1200px
-xxl - 1400px
-```
-### desktop-first:
-```
-/* md <= Large (lg) */
-@media (max-width : 992px) {
-
-}
-```
-### mobile-first:
-```
-/* Large (lg) */
-@media (min-width : 992px) {
-
-}
-```
 ### font-weight:
 ```
 100 - Thin (Hairline)
@@ -39,4 +16,30 @@ xxl - 1400px
 700 - Bold
 800 - Extra Bold (Ultra Bold)
 900 - Black (Heavy)
+```
+
+### grid-breakpoints:
+```
+xs  - 0
+sm  - 576px
+md  - 768px
+lg  - 992px
+xl  - 1200px
+xxl - 1400px
+```
+
+### desktop-first:
+```
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+
+}
+```
+
+### mobile-first:
+```
+/* Large (lg) */
+@media (min-width : 992px) {
+
+}
 ```
