@@ -2,7 +2,7 @@
 
 import '../libs/light-dark/light-dark.js'
 
-/* USER SCRIPTS */
+// USER SCRIPTS
 
 document.body.hidden = false // test
 
