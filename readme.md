@@ -30,7 +30,6 @@ xxl - 1400px
 
 ### light-dark modes:
 ```
-just add in html:
 <span data-mode="light">Light</span>
 <span data-mode="dark">Dark</span>
 <span data-mode="auto">Auto</span>
