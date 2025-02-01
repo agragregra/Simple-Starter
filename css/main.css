@@ -4,6 +4,7 @@
 
 	color-scheme: light dark;
 
+	--font-base: 16px;
 	--font-default: roboto-st, sans-serif;
 
 	--color-accent: orange;
@@ -19,8 +20,7 @@
 	.container, [class^='container-'] { --bs-gutter-x: .625rem; }
 	.row, .row > * { --bs-gutter-x: 1.25rem; }
 
-	/* System Settings */
-	--font-base: 16px;
+	/* System Fonts, opt. */
 	--font-system: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
 
 }
