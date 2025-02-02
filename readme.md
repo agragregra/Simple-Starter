@@ -131,7 +131,7 @@ add hide attribute
 --bs-dark:      #212529;
 ```
 
-### bootstrap-styles:
+### all bootstrap-styles (optional):
 ```
 <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 ```
