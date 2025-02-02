@@ -7,8 +7,6 @@
 	--bs-body-font-size: 16px;
 	--bs-body-font-family: roboto-st, sans-serif;
 
-	--radius: 8px;
-
 	--color-accent: orange;
 	--color-light: #f5f5f5;
 	--color-dark: #151515;
@@ -22,6 +20,7 @@
 			hsl(from var(--color-light) h s calc(l - 50))
 		);
 	--bs-body-line-height: 1.65;
+	--bs-border-radius: .5rem;
 
 }
 
@@ -58,7 +57,7 @@ body {
 .image {
 	max-width: 100%;
 	margin-bottom: calc(var(--bs-gutter-x) / 2);
-	border-radius: calc(var(--radius) / 2);
+	border-radius: var(--bs-border-radius);
 	display: none;
 }
 
@@ -82,7 +81,7 @@ html.dark .image-dark {
 [data-mode] {
 	display: inline-block;
 	cursor: pointer;
-	border-radius: calc(var(--radius) / 2);
+	border-radius: calc(var(--bs-border-radius) / 2);
 	padding: .4rem .9rem;
 }
 [data-mode].active {

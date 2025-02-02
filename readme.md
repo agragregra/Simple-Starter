@@ -37,6 +37,7 @@ xxl - 1400px
 ```
 --bs-body-bg:          body background
 --bs-body-color:       body color
+--bs-border-radius:    global border-radius
 --bs-font-sans-serif:  system font
 --bs-font-monospace:   monospace font
 --bs-body-line-height: body line-height
