@@ -54,12 +54,19 @@ xxl - 1400px
 <span data-mode="auto">Auto</span>
 ```
 
-### root selectors:
+### root mode selectors:
 ```
 html.light {
 
 }
 html.dark {
+
+}
+```
+
+### mode switcher active:
+```
+[data-mode].active {
 
 }
 ```

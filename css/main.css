@@ -79,13 +79,13 @@ html.dark .image-dark {
 	font-size: .875rem;
 }
 
-.modes span {
+[data-mode] {
 	display: inline-block;
 	cursor: pointer;
 	border-radius: calc(var(--radius) / 2);
 	padding: .4rem .9rem;
 }
-.modes .active {
+[data-mode].active {
 	background-color: var(--color-accent);
 	color: #fff;
 }
