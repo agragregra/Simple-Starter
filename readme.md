@@ -33,6 +33,20 @@ xl  - 1200px
 xxl - 1400px
 ```
 
+### avaliable bootstrap-variables:
+```
+--bs-body-bg:          body background
+--bs-body-color:       body color
+--bs-font-sans-serif:  system font
+--bs-font-monospace:   monospace font
+--bs-body-line-height: body line-height
+--bs-body-font-weight: body font-weight
+--bs-body-text-align:  body text-align
+--bs-heading-color:    h1, h2, ... color
+--bs-secondary-color:  secondary color
+--bs-code-color:       color for code tag
+```
+
 ### light-dark switch:
 ```
 <span data-mode="light">Light</span>
@@ -66,12 +80,14 @@ xxl - 1400px
 }
 ```
 
-### bootstrap-variables:
+### responsive classes:
 ```
---bs-body-bg:          body background
---bs-body-color:       body color
---bs-font-sans-serif:  system font
---bs-body-line-height: body line-height
+any bootstrap-grid classes and utilities
+```
+
+### hide element:
+```
+add hide attribute
 ```
 
 ### bootstrap-colors:

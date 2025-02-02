@@ -1,10 +1,10 @@
-/* USER VARIABLES */
+/* PROJECT VARIABLES */
 
 :root {
 
 	color-scheme: light dark;
 
-	--font-base: 16px;
+	--bs-body-font-size: 16px;
 	--bs-body-font-family: roboto-st, sans-serif;
 
 	--radius: 8px;
@@ -16,11 +16,16 @@
 	/* Bootstrap Variables */
 	--bs-body-bg: light-dark(var(--color-light), var(--color-dark));
 	--bs-body-color: light-dark(var(--color-dark), var(--color-light));
+	--bs-heading-color: light-dark(var(--color-dark), var(--color-light));
+	--bs-secondary-color: light-dark(
+			hsl(from var(--color-light) h s calc(l - 50)),
+			hsl(from var(--color-light) h s calc(l - 50))
+		);
 	--bs-body-line-height: 1.65;
 
 }
 
-/* Bootstrap Grid Gutter 20px instead of default 24px */
+/* Bootstrap Grid Gutter: 20px instead of default 24px */
 .container, [class^='container-'], .row, .row > * { --bs-gutter-x: 1.25rem; }
 
 /* FONTS LOAD */
@@ -39,7 +44,7 @@ input:focus:required:invalid, textarea:focus:required:invalid { border-color: re
 input:required:valid, textarea:required:valid { border-color: green; }
 
 html, body {
-	font-size: var(--font-base);
+	font-size: var(--bs-body-font-size);
 }
 
 body {
@@ -48,7 +53,7 @@ body {
 	overflow-x: hidden;
 }
 
-/* USER STYLES */
+/* PROJECT STYLES */
 
 .image {
 	max-width: 100%;
@@ -83,4 +88,9 @@ body {
 .modes .active {
 	background-color: var(--color-accent);
 	color: #fff;
+}
+
+blockquote {
+	color: var(--bs-secondary-color);
+	font-size: 1rem;
 }
