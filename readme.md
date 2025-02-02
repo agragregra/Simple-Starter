@@ -33,7 +33,7 @@ xl  - 1200px
 xxl - 1400px
 ```
 
-### avaliable bootstrap-variables:
+### avaliable bootstrap variables:
 ```
 --bs-body-bg:          body background
 --bs-body-color:       body color
@@ -93,12 +93,12 @@ html.dark {
 any bootstrap-grid classes and utilities
 ```
 
-### hide element:
+### hide any element:
 ```
 add hide attribute
 ```
 
-### bootstrap-colors:
+### bootstrap colors:
 ```
 --bs-blue:      #0d6efd;
 --bs-indigo:    #6610f2;
@@ -132,7 +132,7 @@ add hide attribute
 --bs-dark:      #212529;
 ```
 
-### all bootstrap-styles (optional):
+### all bootstrap styles (optional):
 ```
 <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 ```
