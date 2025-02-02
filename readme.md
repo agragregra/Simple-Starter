@@ -56,10 +56,10 @@ xxl - 1400px
 
 ### root selectors:
 ```
-.theme-light {
+html.light {
 
 }
-.theme-dark {
+html.dark {
 
 }
 ```

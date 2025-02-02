@@ -62,10 +62,10 @@ body {
 	display: none;
 }
 
-.theme-light .image-light {
+html.light .image-light {
 	display: block;
 }
-.theme-dark .image-dark {
+html.dark .image-dark {
 	display: block;
 }
 
