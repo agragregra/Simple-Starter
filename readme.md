@@ -47,11 +47,18 @@ xxl - 1400px
 --bs-code-color:       color for code tag
 ```
 
-### light-dark switch:
+### light-dark switcher:
 ```
 <span data-mode="light">Light</span>
 <span data-mode="dark">Dark</span>
 <span data-mode="auto">Auto</span>
+```
+
+### switcher selector:
+```
+[data-mode].active {
+
+}
 ```
 
 ### root mode selectors:
@@ -60,13 +67,6 @@ html.light {
 
 }
 html.dark {
-
-}
-```
-
-### mode switcher active:
-```
-[data-mode].active {
 
 }
 ```
