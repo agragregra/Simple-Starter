@@ -1,6 +1,6 @@
-// LIBRARIES IMPORT SECTION
+// COMPONENTS IMPORT SECTION
 
-import '../libs/light-dark/light-dark.js'
+import '../components/LightDark/LightDark.js'
 
 // USER SCRIPTS
 

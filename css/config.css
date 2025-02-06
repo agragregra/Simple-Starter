@@ -1,3 +1,8 @@
+/* IMPORT LIBRARIES & STYLES */
+
+@import url(../libs/bootstrap/css/bootstrap-reboot.min.css);
+@import url(../libs/bootstrap/css/bootstrap-grid.min.css);
+
 /* PROJECT VARIABLES */
 
 :root {
@@ -50,46 +55,4 @@ body {
 	min-width: 320px;
 	position: relative;
 	overflow-x: hidden;
-}
-
-/* PROJECT STYLES */
-
-.image {
-	max-width: 100%;
-	margin-bottom: calc(var(--bs-gutter-x) / 2);
-	border-radius: var(--bs-border-radius);
-	display: none;
-}
-
-html.light .image-light {
-	display: block;
-}
-html.dark .image-dark {
-	display: block;
-}
-
-.accent {
-	color: var(--color-accent);
-	font-weight: bold;
-}
-
-.modes {
-	margin: var(--bs-gutter-x) 0;
-	font-size: .875rem;
-}
-
-[data-mode] {
-	display: inline-block;
-	cursor: pointer;
-	border-radius: calc(var(--bs-border-radius) / 2);
-	padding: .4rem .9rem;
-}
-[data-mode].active {
-	background-color: var(--color-accent);
-	color: #fff;
-}
-
-blockquote {
-	color: var(--bs-secondary-color);
-	font-size: 1rem;
 }

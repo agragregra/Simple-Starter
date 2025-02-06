@@ -1,5 +1,5 @@
 # Simple Starter
-A simple starter for web development using native technologies, bootstrap-grid and light-dark mode system.
+A simple starter for web development using native technologies, bootstrap-grid and LightDark mode component.
 
 ![Simple-Starter](https://raw.githubusercontent.com/agragregra/Simple-Starter/main/img/preview.png)
 ```
@@ -48,11 +48,9 @@ xxl - 1400px
 --bs-code-color:       color for code tag
 ```
 
-### light-dark switcher:
+### light-dark switcher component:
 ```
-<span data-mode="light">Light</span>
-<span data-mode="dark">Dark</span>
-<span data-mode="auto">Auto</span>
+<light-dark class="modes" light="Light" dark="Dark" auto="Auto"></light-dark>
 ```
 
 ### switcher selector:
