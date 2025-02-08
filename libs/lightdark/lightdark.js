@@ -11,7 +11,6 @@ class LightDark {
 
       html.classList.remove('light', 'dark')
       html.classList.add(`${newMode}`)
-      html.setAttribute('data-bs-theme', newMode)
       localStorage.setItem('mode', mode)
 
       document.querySelectorAll('[data-mode]').forEach(el => el.classList.toggle('active', el.dataset.mode === mode))
