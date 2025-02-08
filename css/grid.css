@@ -3,7 +3,13 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 calc(var(--gutter)* .5);
+  padding: 0 calc(var(--gutter) * .5);
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    padding: 0 calc(var(--gutter) * .75);
+  }
 }
 
 .row {
