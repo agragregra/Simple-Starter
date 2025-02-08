@@ -1,7 +1,6 @@
 /* IMPORT LIBRARIES & STYLES */
 
-@import url(../libs/bootstrap/css/bootstrap-reboot.min.css);
-@import url(../libs/bootstrap/css/bootstrap-grid.min.css);
+@import url(../libs/example/example.min.css);
 
 /* PROJECT VARIABLES */
 
@@ -11,6 +10,9 @@
 
 	--bs-body-font-size: 16px;
 	--bs-body-font-family: roboto-st, sans-serif;
+
+	--container: 1140px;
+	--gutter: 1.25rem;
 
 	--color-accent: orange;
 	--color-light: #f5f5f5;
@@ -41,6 +43,8 @@
 
 /* GENERAL CSS */
 
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
 ::placeholder { color: #666; }
 ::selection { background-color: var(--color-accent); color: #fff; }
 input, textarea { outline: none; }
@@ -49,6 +53,8 @@ input:required:valid, textarea:required:valid { border-color: green; }
 
 html, body {
 	font-size: var(--bs-body-font-size);
+	font-family: var(--bs-body-font-family);
+	line-height: var(--bs-body-line-height);
 }
 
 body {
