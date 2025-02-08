@@ -1,6 +1,6 @@
 // COMPONENTS IMPORT SECTION
 
-import LightDark from "../libs/lightdark/lightDark.js"
+import LightDark from "../libs/lightdark/lightdark.js"
 new LightDark()
 
 // USER SCRIPTS
