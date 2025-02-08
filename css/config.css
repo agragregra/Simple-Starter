@@ -8,10 +8,10 @@
 
 	color-scheme: light dark;
 
-	--bs-body-font-size: 16px;
-	--bs-body-font-family: roboto-st, sans-serif;
+	--font-size: 16px;
+	--font-family: roboto-st, sans-serif;
 
-	--container: 1140px;
+	--container: 1320px;
 	--gutter: 1.25rem;
 
 	--color-accent: orange;
@@ -52,8 +52,8 @@ input:focus:required:invalid, textarea:focus:required:invalid { border-color: re
 input:required:valid, textarea:required:valid { border-color: green; }
 
 html, body {
-	font-size: var(--bs-body-font-size);
-	font-family: var(--bs-body-font-family);
+	font-size: var(--font-size);
+	font-family: var(--font-family);
 	line-height: var(--bs-body-line-height);
 }
 
