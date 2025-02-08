@@ -50,14 +50,10 @@
 
 /* Extra large (xl) */
 @media (min-width : 1200px) {
-	.text {
-		font-size: 1.125rem;
-	}
+
 }
 
 /* Extra extra large (xxl) */
 @media (min-width : 1400px) {
-	.text {
-		font-size: 1.375rem;
-	}
+
 }

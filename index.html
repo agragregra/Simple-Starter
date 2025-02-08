@@ -3,40 +3,45 @@
 
 <head>
 
-	<meta charset="utf-8">
-	<!-- <base href="/"> -->
+  <meta charset="utf-8">
+  <!-- <base href="/"> -->
 
-	<title>Simple Starter</title>
-	<meta name="description" content="Simple Starter Description">
+  <title>Simple Starter</title>
+  <meta name="description" content="Simple Starter Description">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="icon" href="img/favicon.png">
-	<meta property="og:image" content="img/preview.jpg">
+  <link rel="icon" href="img/favicon.png">
+  <meta property="og:image" content="img/preview.jpg">
 
-	<link rel="stylesheet" href="css/index.css">
-	<script type="module" src="js/app.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <script type="module" src="js/app.js"></script>
 
 </head>
 
 <body>
 
-	<div class="container">
+  <div class="container">
 
-		<light-dark class="modes" light="Light" dark="Dark" auto="Auto"></light-dark>
+    <div class="modes">
+      <span data-mode="light">Light</span>
+      <span data-mode="dark">Dark</span>
+      <span data-mode="auto">Auto</span>
+    </div>
 
-		<div class="row">
-			<div class="col-lg-8">
-				<img class="image image-dark" src="img/preview.png" alt="Image Example">
-				<img class="image image-light" src="img/preview-light.png" alt="Image Example">
-			</div>
-			<div class="col-lg-4">
-				<span class="accent">Simple Starter</span>. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quos ab, incidunt hic recusandae animi.
-				<blockquote class="d-block d-md-none d-lg-block">Nesciunt fugiat ipsa velit nobis, quam corrupti veritatis, perferendis facere et odit autem corporis molestias recusandae adipisicing.</blockquote>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col-lg-8">
+        <img class="image image-dark" src="img/preview.png" alt="Image Example">
+        <img class="image image-light" src="img/preview-light.png" alt="Image Example">
+      </div>
+      <div class="col-lg-4">
+        <h2 class="header">Simple Starter</h2>
+        <span class="accent">Simple Starter</span>. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quos ab, incidunt hic recusandae animi amet consectetur.
+        <blockquote class="d-block d-md-none d-lg-block">Nesciunt fugiat ipsa velit nobis, quam corrupti veritatis, perferendis facere et odit autem corporis molestias recusandae adipisicing.</blockquote>
+      </div>
+    </div>
 
-	</div>
+  </div>
 
 </body>
 </html>

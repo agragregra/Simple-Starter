@@ -1,29 +1,45 @@
 /* PROJECT STYLES */
 
 .image {
-	max-width: 100%;
-	margin-bottom: calc(var(--bs-gutter-x) / 2);
-	border-radius: var(--bs-border-radius);
-	display: none;
+  max-width: 100%;
+  border-radius: var(--border-radius);
+  display: none;
 }
 
 html.light .image-light {
-	display: block;
+  display: block;
 }
 html.dark .image-dark {
-	display: block;
+  display: block;
+}
+
+.header {
+  margin: 0 0 .25rem 0;
 }
 
 .accent {
-	color: var(--color-accent);
-	font-weight: bold;
-}
-
-.modes {
-	margin: var(--bs-gutter-x) 0;
+  color: var(--color-accent);
+  font-weight: bold;
 }
 
 blockquote {
-	color: var(--bs-secondary-color);
-	font-size: 1rem;
+  color: var(--secondary-color);
+  font-size: .875rem;
+  margin-top: .5rem;
+}
+
+.modes {
+  margin: var(--gutter) 0;
+}
+
+.modes span {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: calc(var(--border-radius) / 2);
+  padding: .4rem .9rem;
+}
+.modes .active {
+  color: var(--color-accent);
+  background-color: var(--color-accent);
+  color: #fff;
 }
