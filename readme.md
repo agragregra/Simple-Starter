@@ -41,9 +41,11 @@ col-{breakpoint}-{1-12},
 .d-{breakpoint}-{none, block, inline-block, flex, inline-flex}
 ```
 
-### light-dark switcher component:
+### light-dark switcher:
 ```
-<light-dark class="modes" light="Light" dark="Dark" auto="Auto"></light-dark>
+<span data-mode="light">Light</span>
+<span data-mode="dark">Dark</span>
+<span data-mode="auto">Auto</span>
 ```
 
 ### switcher selector:
