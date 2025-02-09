@@ -1,4 +1,4 @@
-/* PROJECT STYLES */
+/* Main Styles */
 
 html.light .image-light {
   display: block;
@@ -21,10 +21,6 @@ html.dark .image-dark {
   color: var(--color-accent);
   background-color: var(--color-accent);
   color: #fff;
-}
-
-.header {
-  margin: 0 0 .25rem 0;
 }
 
 .image {

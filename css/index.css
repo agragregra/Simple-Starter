@@ -1,5 +1,9 @@
+/* @import url(../libs/example/example.min.css); */
+
+@import url(vars.css);
 @import url(fonts.css);
-@import url(config.css);
-@import url(grid.css);
+@import url(utils/reboot.css);
+@import url(utils/grid.css);
+
 @import url(main.css);
 @import url(media.css);
