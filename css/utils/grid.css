@@ -4,12 +4,6 @@
   padding: 0 calc(var(--gutter) * .5);
 }
 
-@media (max-width: 575.98px) {
-  .container {
-    padding: 0 calc(var(--gutter) * .75);
-  }
-}
-
 .row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -17,6 +11,12 @@
 }
 
 [class^="col-"] { grid-column: span 12; }
+
+@media (max-width: 575.98px) {
+  .container {
+    padding: 0 calc(var(--gutter) * .75);
+  }
+}
 
 @media (min-width: 576px) {
   .container { max-width: 540px; }
