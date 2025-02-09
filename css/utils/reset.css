@@ -3,11 +3,13 @@
 html { font-size: var(--font-size); }
 body { margin: 0; -webkit-text-size-adjust: 100%; }
 h1, h2, h3, h4, h5, h6 { color: var(--heading-color); line-height: 1.2; margin-bottom: .5rem; margin-top: 0; }
+hr { margin: 1rem 0; color: inherit; border: 0; border-top: 1px solid; opacity: 0.1; }
 img, svg { vertical-align: middle; }
 blockquote, p { margin: 0 0 1rem }
 
 ::placeholder { color: #666; }
 ::selection { background-color: var(--color-accent); color: #fff; }
+
 input:focus:required:invalid, textarea:focus:required:invalid { border-color: red; }
 input:required:valid, textarea:required:valid { border-color: green; }
 textarea { resize: vertical; }
@@ -15,4 +17,3 @@ input { outline: none; }
 [type=button]:not(:disabled), [type=reset]:not(:disabled),
 [type=submit]:not(:disabled), button:not(:disabled) { cursor: pointer; }
 button, input, select, textarea { font-family: inherit; font-size: inherit; line-height: inherit; }
-hr { margin: 1rem 0; color: inherit; border: 0; border-top: 1px solid; opacity: 0.1; }
