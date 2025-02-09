@@ -85,3 +85,10 @@ html.dark {
 ```
 add hidden attribute
 ```
+
+### features:
+```
+lightweight responsive grid
+light/dark mode switcher
+soft css reset
+```

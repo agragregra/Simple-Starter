@@ -2,7 +2,7 @@
 
 @import url(vars.css);
 @import url(fonts.css);
-@import url(utils/reboot.css);
+@import url(utils/reset.css);
 @import url(utils/grid.css);
 
 @import url(main.css);
