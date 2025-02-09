@@ -37,8 +37,16 @@ xxl - 1400px
 ```
 .container,
 .row,
-col-{breakpoint}-{1-12},
-.d-{breakpoint}-{none, block, inline-block, flex, inline-flex}
+.row-cols-{2, 3, 4}
+.row-cols-{breakpoint}-{2, 3, 4}
+.col-{1-12}
+.col-{breakpoint}-{1-12}
+.order-{first, 0–5, last}
+.d-{breakpoint}-{block, inline-block, flex, inline-flex, grid, inline-grid, inline, none}
+.flex-{fill, row, row-reverse, column, column-reverse, wrap, nowrap}
+.justify-content-{start, end, center, between, around, evenly}
+.align-items-{start, end, center, baseline, stretch}
+.align-content-{start, end, center, between, around, stretch}
 ```
 
 ### light-dark switcher:

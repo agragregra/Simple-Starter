@@ -38,4 +38,5 @@ blockquote {
   color: var(--secondary-color);
   font-size: .875rem;
   margin-top: .5rem;
+  margin-bottom: 0;
 }
