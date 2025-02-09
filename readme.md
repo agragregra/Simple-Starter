@@ -89,14 +89,14 @@ html.dark {
 }
 ```
 
-### hide any element:
-```
-add hidden attribute
-```
-
 ### features:
 ```
 lightweight responsive grid
 light/dark mode switcher
 soft css reset
+```
+
+### hide any element:
+```
+add hidden attribute
 ```
