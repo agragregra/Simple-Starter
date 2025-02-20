@@ -50,7 +50,7 @@ xxl - 1400px
 ```
 
 ### desktop-first:
-/* xl <= Extra extra large (xxl) */
+xl <= Extra extra large (xxl)
 ```
 @media (max-width : 1400px) {  }
 ```
