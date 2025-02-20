@@ -1,9 +1,9 @@
-/* Main Styles */
+/* Custom Styles */
 
-html.light .image-light {
+.light .image-light {
   display: block;
 }
-html.dark .image-dark {
+.dark .image-dark {
   display: block;
 }
 

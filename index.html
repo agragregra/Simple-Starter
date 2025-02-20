@@ -17,11 +17,13 @@
   <link rel="stylesheet" href="css/index.css">
   <script type="module" src="js/main.js"></script>
 
+  <script>/* no flicker */document.documentElement.classList.add(localStorage.getItem('mode') === 'auto' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : localStorage.getItem('mode'))</script>
+
 </head>
 
 <body>
 
-  <div class="container" style="max-width: 1140px;">
+  <div class="container">
     <div class="row">
       <div class="col-10 col-sm-6">
         <div class="modes">
@@ -41,7 +43,7 @@
       <div class="col-sm-12 col-lg-4 order-md-last">
         <h2 class="header">Simple Starter</h2>
         <span class="accent">Simple Starter</span>. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quos ab, incidunt hic recusandae animi amet consectetur.
-        <blockquote class="d-none d-sm-block">Nesciunt fugiat ipsa velit nobis, quam corrupti veritatis, perferendis facere et odit autem corporis molestias recusandae adipisicing.</blockquote>
+        <blockquote>Nesciunt fugiat ipsa velit nobis, quam corrupti veritatis, perferendis facere et odit autem corporis molestias recusandae adipisicing.</blockquote>
       </div>
       <div class="col-sm-12 col-lg-8 order-lg-first">
         <img class="image image-dark" src="img/preview.png" alt="Image Example">
