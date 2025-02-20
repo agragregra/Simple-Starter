@@ -1,7 +1,7 @@
 @import url('./vars.css');
 
-@import url('../vendor/simple-reset/simple-reset.css');
-@import url('../vendor/simple-grid/simple-grid.css');
+@import url('../vendor/global-reset/global-reset.css');
+@import url('../vendor/grid-system/grid-system.css');
 
 @import url('./fonts.css');
 @import url('./main.css');

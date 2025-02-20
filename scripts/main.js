@@ -1,3 +1,3 @@
-import '../vendor/simple-mode/simple-mode.js'
+import '../vendor/theme-switcher/theme-switcher.js'
 
 // document.body.hidden = true // test
