@@ -51,7 +51,8 @@ xxl - 1400px
 
 ### css mode classes (root):
 ```
-.light, .dark
+.light
+.dark
 ```
 
 ### theme switcher:
