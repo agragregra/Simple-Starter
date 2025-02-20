@@ -35,8 +35,8 @@ xxl - 1400px
 
 ### responsive classes:
 ```
-.container,
-.row,
+.container
+.row
 .row-cols-{2, 3, 4}
 .row-cols-{breakpoint}-{2, 3, 4}
 .col-{1-12}
