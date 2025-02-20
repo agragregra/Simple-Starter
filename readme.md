@@ -63,14 +63,9 @@ xxl - 1400px
 }
 ```
 
-### root mode selectors:
+### css mode classes (root):
 ```
-html.light {
-
-}
-html.dark {
-
-}
+.light, .dark
 ```
 
 ### desktop-first:
