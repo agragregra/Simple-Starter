@@ -95,11 +95,9 @@ xxl - 1400px
 <span data-mode="auto">Auto</span>
 ```
 
-### switcher selector:
+### switcher active item:
 ```
-[data-mode].active {
-
-}
+[data-mode].active {  }
 ```
 
 ### css mode classes (root):
