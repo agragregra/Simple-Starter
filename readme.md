@@ -49,54 +49,10 @@ xxl - 1400px
 .align-content-{start, end, center, between, around, stretch}
 ```
 
-### desktop-first:
-> xl <= Extra extra large (xxl)
-> ```
-> @media (max-width: 1400px) {}
-> ```
-> 
-> lg <= Extra large (xl)
-> ```
-> @media (max-width: 1200px) {}
-> ```
-> md <= Large (lg)
-> ```
-> @media (max-width: 992px) {}
-> ```
-> sm <= Medium (md)
-> ```
-> @media (max-width: 768px) {}
-> ```
-> xs <= Small (sm)
-> ```
-> @media (max-width: 576px) {}
-> ```
-
-### mobile-first:
-> Custom (xs)
-> ```
-> @media (min-width: 0) {}
-> ```
-> Small (sm)
-> ```
-> @media (min-width: 576px) {}
-> ```
-> Medium (md)
-> ```
-> @media (min-width: 768px) {}
-> ```
-> Large (lg)
-> ```
-> @media (min-width: 992px) {}
-> ```
-> Extra large (xl)
-> ```
-> @media (min-width: 1200px) {}
-> ```
-> Extra extra large (xxl)
-> ```
-> @media (min-width: 1400px) {}
-> ```
+### css mode classes (root):
+```
+.light, .dark
+```
 
 ### light-dark switcher:
 ```
@@ -108,21 +64,4 @@ xxl - 1400px
 ### switcher active item:
 ```
 [data-mode].active {}
-```
-
-### css mode classes (root):
-```
-.light, .dark
-```
-
-### features:
-```
-lightweight responsive grid
-light/dark mode switcher
-soft css reset
-```
-
-### hide any element:
-```
-add hidden attribute
 ```
