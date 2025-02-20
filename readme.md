@@ -52,50 +52,50 @@ xxl - 1400px
 ### desktop-first:
 > xl <= Extra extra large (xxl)
 > ```
-> @media (max-width : 1400px) {}
+> @media (max-width: 1400px) {}
 > ```
 > 
 > lg <= Extra large (xl)
 > ```
-> @media (max-width : 1200px) {}
+> @media (max-width: 1200px) {}
 > ```
 > md <= Large (lg)
 > ```
-> @media (max-width : 992px) {}
+> @media (max-width: 992px) {}
 > ```
 > sm <= Medium (md)
 > ```
-> @media (max-width : 768px) {}
+> @media (max-width: 768px) {}
 > ```
 > xs <= Small (sm)
 > ```
-> @media (max-width : 576px) {}
+> @media (max-width: 576px) {}
 > ```
 
 ### mobile-first:
 > Custom (xs)
 > ```
-> @media (min-width : 0) {}
+> @media (min-width: 0) {}
 > ```
 > Small (sm)
 > ```
-> @media (min-width : 576px) {}
+> @media (min-width: 576px) {}
 > ```
 > Medium (md)
 > ```
-> @media (min-width : 768px) {}
+> @media (min-width: 768px) {}
 > ```
 > Large (lg)
 > ```
-> @media (min-width : 992px) {}
+> @media (min-width: 992px) {}
 > ```
 > Extra large (xl)
 > ```
-> @media (min-width : 1200px) {}
+> @media (min-width: 1200px) {}
 > ```
 > Extra extra large (xxl)
 > ```
-> @media (min-width : 1400px) {}
+> @media (min-width: 1400px) {}
 > ```
 
 ### light-dark switcher:

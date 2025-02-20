@@ -38,3 +38,13 @@ blockquote {
   margin-top: .5rem;
   margin-bottom: 0;
 }
+
+.header {
+  font-size: 1.85rem;;
+}
+@media (min-width : 992px) {
+  .header {
+    margin-bottom: 11px;
+    font-size: 1.65rem;
+  }
+}
