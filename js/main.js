@@ -1,10 +1,3 @@
-// COMPONENTS IMPORT SECTION
-
-import LightDark from '../libs/lightdark/lightdark.js'
-new LightDark()
-
-// USER SCRIPTS
+import '../libs/lightdark/lightdark.js'
 
 // document.body.hidden = true // test
-
-
