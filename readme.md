@@ -50,27 +50,27 @@ xxl - 1400px
 ```
 
 ### desktop-first:
-xl <= Extra extra large (xxl)
-```
-@media (max-width : 1400px) {  }
-```
-
-lg <= Extra large (xl)
-```
-@media (max-width : 1200px) {  }
-```
-md <= Large (lg)
-```
-@media (max-width : 992px) {  }
-```
-sm <= Medium (md)
-```
-@media (max-width : 768px) {  }
-```
-xs <= Small (sm)
-```
-@media (max-width : 576px) {  }
-```
+> xl <= Extra extra large (xxl)
+> ```
+> @media (max-width : 1400px) {  }
+> ```
+> 
+> lg <= Extra large (xl)
+> ```
+> @media (max-width : 1200px) {  }
+> ```
+> md <= Large (lg)
+> ```
+> @media (max-width : 992px) {  }
+> ```
+> sm <= Medium (md)
+> ```
+> @media (max-width : 768px) {  }
+> ```
+> xs <= Small (sm)
+> ```
+> @media (max-width : 576px) {  }
+> ```
 
 ### mobile-first:
 ```
