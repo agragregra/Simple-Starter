@@ -40,11 +40,11 @@ blockquote {
 }
 
 .header {
-  font-size: 1.85rem;;
+  font-size: 1.85rem;
 }
 @media (min-width : 992px) {
   .header {
-    margin-bottom: 11px;
+    margin-bottom: 10px;
     font-size: 1.65rem;
   }
 }

@@ -1,3 +1,3 @@
-import '../libs/lightdark/lightdark.js'
+import '../libs/mode/mode.js'
 
 // document.body.hidden = true // test
