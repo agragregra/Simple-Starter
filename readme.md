@@ -49,6 +49,45 @@ xxl - 1400px
 .align-content-{start, end, center, between, around, stretch}
 ```
 
+### desktop-first:
+```
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {  }
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {  }
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {  }
+
+/* sm <= Medium (md) */
+@media (max-width : 768px) {  }
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {  }
+```
+
+### mobile-first:
+```
+/* Custom (xs) */
+@media (min-width : 0) {  }
+
+/* Small (sm) */
+@media (min-width : 576px) {  }
+
+/* Medium (md) */
+@media (min-width : 768px) {  }
+
+/* Large (lg) */
+@media (min-width : 992px) {  }
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {  }
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {  }
+```
+
 ### light-dark switcher:
 ```
 <span data-mode="light">Light</span>
@@ -66,22 +105,6 @@ xxl - 1400px
 ### css mode classes (root):
 ```
 .light, .dark
-```
-
-### desktop-first:
-```
-/* md <= Large (lg) */
-@media (max-width: 992px) {
-
-}
-```
-
-### mobile-first:
-```
-/* Large (lg) */
-@media (min-width: 992px) {
-
-}
 ```
 
 ### features:
