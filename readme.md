@@ -54,7 +54,7 @@ xxl - 1400px
 .light, .dark
 ```
 
-### light-dark switcher:
+### theme switcher:
 ```
 <span data-mode="light">Light</span>
 <span data-mode="dark">Dark</span>
