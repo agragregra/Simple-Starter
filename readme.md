@@ -73,25 +73,30 @@ xxl - 1400px
 > ```
 
 ### mobile-first:
-```
-/* Custom (xs) */
-@media (min-width : 0) {  }
-
-/* Small (sm) */
-@media (min-width : 576px) {  }
-
-/* Medium (md) */
-@media (min-width : 768px) {  }
-
-/* Large (lg) */
-@media (min-width : 992px) {  }
-
-/* Extra large (xl) */
-@media (min-width : 1200px) {  }
-
-/* Extra extra large (xxl) */
-@media (min-width : 1400px) {  }
-```
+> Custom (xs)
+> ```
+> @media (min-width : 0) {  }
+> ```
+> Small (sm)
+> ```
+> @media (min-width : 576px) {  }
+> ```
+> Medium (md)
+> ```
+> @media (min-width : 768px) {  }
+> ```
+> Large (lg)
+> ```
+> @media (min-width : 992px) {  }
+> ```
+> Extra large (xl)
+> ```
+> @media (min-width : 1200px) {  }
+> ```
+> Extra extra large (xxl)
+> ```
+> @media (min-width : 1400px) {  }
+> ```
 
 ### light-dark switcher:
 ```
