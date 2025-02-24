@@ -42,6 +42,7 @@ blockquote {
 .header {
   font-size: 1.85rem;
   color: var(--heading-color);
+  line-height: 1.2;
 }
 @media (min-width : 992px) {
   .header {
