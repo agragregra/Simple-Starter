@@ -18,7 +18,10 @@
 .row-cols-3 > * { grid-column: span 4; }
 .row-cols-4 > * { grid-column: span 3; }
 
-[class^="col-"], [class*=" col-"] { grid-column: span 12; }
+[class^="col-"], [class*=" col-"] {
+  grid-column: span 12;
+  position: relative;
+}
 
 .col-1 { grid-column: span 1; }
 .col-2 { grid-column: span 2; }
