@@ -1,7 +1,11 @@
-.container {
+.container, .container-fluid {
   width: 100%;
   margin: 0 auto;
   padding: 0 calc(var(--gutter) * .5);
+}
+
+.container-fluid {
+  max-width: var(--container);
 }
 
 .row {
