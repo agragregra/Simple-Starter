@@ -35,6 +35,7 @@ xxl - 1400px
 
 ### responsive classes:
 ```
+.container-fluid
 .container
 .row
 .row-cols-{2, 3, 4}
