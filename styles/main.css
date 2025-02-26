@@ -44,9 +44,7 @@ blockquote {
   color: var(--heading-color);
   line-height: 1.2;
 }
-@media (min-width : 992px) {
-  .header {
-    margin-bottom: 10px;
-    font-size: 1.65rem;
-  }
+
+hr {
+  opacity: .1;
 }

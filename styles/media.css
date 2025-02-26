@@ -46,6 +46,11 @@
 /* Large (lg) */
 @media (min-width : 992px) {
 
+  .header {
+    margin-bottom: 10px;
+    font-size: 1.65rem;
+  }
+
 }
 
 /* Extra large (xl) */
