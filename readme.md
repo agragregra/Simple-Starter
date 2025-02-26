@@ -76,6 +76,11 @@ xxl - 1400px
 
 ### toggler active item:
 ```
+(recommended):
+.light .toggler {}
+.dark .toggler {}
+
+(option):
 .toggler.toggler-light {}
 .toggler.toggler-dark {}
 ```
