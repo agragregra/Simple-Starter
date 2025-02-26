@@ -68,3 +68,14 @@ xxl - 1400px
 ```
 [data-mode].active {}
 ```
+
+### theme toggler:
+```
+<div class="toggler"><button></button></div>
+```
+
+### toggler active item:
+```
+.toggler.toggler-light {}
+.toggler.toggler-dark {}
+```
