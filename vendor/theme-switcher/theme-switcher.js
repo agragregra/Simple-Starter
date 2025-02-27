@@ -23,14 +23,16 @@ export class themeSwitcher {
     };
 
     this.updateTogglerClass = () => {
-      const toggler = document.querySelector('.toggler');
-      if (toggler) {
+      const togglers = document.querySelectorAll('.toggler');
+      if (togglers.length > 0) {
         const currentMode = localStorage.getItem('mode') || 'auto';
         const systemMode = getPreferredMode();
         const effectiveMode = currentMode === 'auto' ? systemMode : currentMode;
 
-        toggler.classList.remove('toggler-light', 'toggler-dark');
-        toggler.classList.add(`toggler-${effectiveMode}`);
+        togglers.forEach(toggler => {
+          toggler.classList.remove('toggler-light', 'toggler-dark');
+          toggler.classList.add(`toggler-${effectiveMode}`);
+        });
       }
     };
 
@@ -58,7 +60,9 @@ export class themeSwitcher {
       }
     });
 
-    document.querySelector('.toggler')?.addEventListener('click', this.handleTogglerClick);
+    document.querySelectorAll('.toggler').forEach(toggler => {
+      toggler.addEventListener('click', this.handleTogglerClick);
+    });
 
     switchMode(mode);
   }
