@@ -60,6 +60,8 @@
 .d-inline-flex { display: inline-flex!important; }
 .d-none, [hidden] { display: none!important; }
 .g-0 { gap: 0!important; }
+.gx-0 { column-gap: 0!important; }
+.gy-0 { row-gap: 0!important; }
 
 @media (min-width: 576px) {
 

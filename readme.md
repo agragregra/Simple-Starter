@@ -48,7 +48,7 @@ xxl - 1400px
 .justify-content-{start, end, center, between, around, evenly}
 .align-items-{start, end, center, baseline, stretch}
 .align-content-{start, end, center, between, around, stretch}
-.g-0
+.g-0, .gx-0, .gy-0
 ```
 
 ### css mode classes (root):
