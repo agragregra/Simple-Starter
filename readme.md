@@ -49,6 +49,7 @@ xxl - 1400px
 .align-items-{start, end, center, baseline, stretch}
 .align-content-{start, end, center, between, around, stretch}
 .g-0, .gx-0, .gy-0
+.nowrap
 ```
 
 ### css mode classes (root):
