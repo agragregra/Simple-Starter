@@ -1,27 +1,27 @@
 /* === DESKTOP FIRST === */
 
 /* xl <= Extra extra large (xxl) */
-@media (max-width : 1400px) {
+@media (max-width : 1399.98px) {
 
 }
 
 /* lg <= Extra large (xl) */
-@media (max-width : 1200px) {
+@media (max-width : 1199.98px) {
 
 }
 
 /* md <= Large (lg) */
-@media (max-width : 992px) {
+@media (max-width : 991.98px) {
 
 }
 
 /* sm <= Medium (md) */
-@media (max-width : 768px) {
+@media (max-width : 767.98px) {
 
 }
 
 /* xs <= Small (sm) */
-@media (max-width : 576px) {
+@media (max-width : 575.98px) {
 
 }
 
